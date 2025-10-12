@@ -33,7 +33,7 @@ body {
 
 @layer {
   .gradientBg{
-    @apply bg-gradient-to-br from-[#0078B7] to-[#00A86B]
+    @apply bg-gradient-to-br from-[#0B3C6B] to-[#3B8151]
   }
 
   .btnGradient{
