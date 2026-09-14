@@ -15,7 +15,7 @@ interface SeoHeadProps {
 }
 
 /**
- * SeoHead — reusable Head component for Petro411 (Next.js Pages Router)
+ * SeoHead — reusable Head component for Digg411 (Next.js Pages Router)
  *
  * Usage (in pages/index.tsx):
  *
@@ -24,11 +24,11 @@ interface SeoHeadProps {
  * const faqs: FaqItem[] = [
  *   {
  *     question: "What membership plans are available?",
- *     answer: "Petro411 offers free and paid membership plans. Free users can search mineral owner records without contact details, while paid members get full access to phone numbers, emails, and addresses.",
+ *     answer: "Digg411 offers free and paid membership plans. Free users can search mineral owner records without contact details, while paid members get full access to phone numbers, emails, and addresses.",
  *   },
  *   {
  *     question: "What is this website about?",
- *     answer: "Petro411 is a mineral owner contact database built for the oil and gas industry, providing accurate contact information sourced from county property records.",
+ *     answer: "Digg411 is a mineral owner contact database built for the oil and gas industry, providing accurate contact information sourced from county property records.",
  *   },
  *   // ...add remaining FAQs
  * ];
@@ -43,32 +43,31 @@ interface SeoHeadProps {
  * }
  */
 export default function SeoHead({
-  title = "Mineral Owner Contact Database | Petro411",
+  title = "Mineral Owner Contact Database | Digg411",
   description = "Find accurate, verified mineral owner contact info — phone, email & address — by county and state. Trusted by landmen and oil & gas pros. Search free.",
-  url = "https://www.petro411.com/",
+  url = "https://www.digg411.com/",
   faqs = [],
   allowIndexing = true,
 }: SeoHeadProps) {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Petro411",
-    url: "https://www.petro411.com/",
-    logo: "https://www.petro411.com/logo-name.png",
+    name: "Digg411",
+    url: "https://www.digg411.com/",
+    logo: "https://www.digg411.com/logo-name.png",
     description:
-      "Petro411 provides accurate, secure mineral owner contact information nationwide for the oil and gas industry.",
+      "Digg411 provides accurate, secure mineral owner contact information nationwide for the oil and gas industry.",
       sameAs:[
-        'https://www.linkedin.com/company/petro411/'
       ]
   };
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: "https://www.petro411.com/",
+    url: "https://www.digg411.com/",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://www.petro411.com/owners?state={search_term_string}",
+      target: "https://www.digg411.com/owners?state={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -113,9 +112,9 @@ export default function SeoHead({
       <meta property="og:url" content={url} />
       <meta
         property="og:image"
-        content="https://www.petro411.com/assets/cover-bg.png"
+        content="https://www.digg411.com/assets/cover-bg.png"
       />
-      <meta property="og:site_name" content="Petro411" />
+      <meta property="og:site_name" content="Digg411" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

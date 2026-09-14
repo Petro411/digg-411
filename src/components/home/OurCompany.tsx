@@ -1,7 +1,7 @@
 import { Heading, Text } from "@radix-ui/themes";
-import React, { memo } from "react";
 import { label } from "@/branding";
 import Image from "next/image";
+import { memo } from "react";
 
 import Container from "../Container";
 
@@ -24,7 +24,7 @@ const OurCompany = () => {
 
         <div className="flex flex-row order-1 lg:order-2 justify-center lg:justify-end">
           <Image
-            alt="Our Company - Petro411"
+            alt="Our Company - Digg411"
             src={"/industries/land-8.png"}
             className="rounded-lg overflow-x-hidden"
             height={450}

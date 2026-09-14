@@ -24,7 +24,7 @@ interface SeoHeadPricingProps {
 }
 
 /**
- * SeoHeadPricing — reusable Head component for Petro411 Pricing page
+ * SeoHeadPricing — reusable Head component for Digg411 Pricing page
  * (Next.js Pages Router)
  *
  * Usage (in pages/pricing.tsx):
@@ -63,20 +63,20 @@ interface SeoHeadPricingProps {
  * }
  */
 export default function SeoHeadPricing({
-  title = "Pricing Plans | Mineral Owner Data Access | Petro411",
-  description = "Flexible pricing plans for mineral owner data access — from free searches to full county downloads with verified contact info. Choose the plan that fits your needs.",
-  url = "https://www.petro411.com/pricing",
+  title = "Pricing Plans | Property Owners Data Access | Digg411",
+  description = "Flexible pricing plans for Property owner data access — from free searches to full county downloads with verified contact info. Choose the plan that fits your needs.",
+  url = "https://www.digg411.com/pricing",
   faqs = [],
   plans = [],
 }: SeoHeadPricingProps) {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Petro411",
-    url: "https://www.petro411.com/",
-    logo: "https://www.petro411.com/logo-name.png",
+    name: "Digg411",
+    url: "https://www.digg411.com/",
+    logo: "https://www.digg411.com/logo-name.png",
     description:
-      "Petro411 provides accurate, secure mineral owner contact information nationwide for the oil and gas industry.",
+      "Digg411 provides accurate, secure property owner contact information nationwide for the oil and gas industry.",
   };
 
   // Product + Offer schema — built dynamically from the plans array
@@ -90,15 +90,15 @@ export default function SeoHeadPricing({
             position: index + 1,
             item: {
               "@type": "Product",
-              name: `Petro411 ${plan.title} Plan`,
+              name: `Digg411 ${plan.title} Plan`,
               description:
                 plan.description ||
                 (plan.features && plan.features.length > 0
                   ? plan.features.join(", ")
-                  : `${plan.title} subscription plan on Petro411.`),
+                  : `${plan.title} subscription plan on Digg411.`),
               brand: {
                 "@type": "Brand",
-                name: "Petro411",
+                name: "Digg411",
               },
               offers: {
                 "@type": "Offer",
@@ -155,9 +155,9 @@ export default function SeoHeadPricing({
       <meta property="og:url" content={url} />
       <meta
         property="og:image"
-        content="https://www.petro411.com/assets/images/cover-bg.png"
+        content="https://www.digg411.com/assets/images/cover-bg.png"
       />
-      <meta property="og:site_name" content="Petro411" />
+      <meta property="og:site_name" content="Digg411" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

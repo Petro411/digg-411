@@ -1,22 +1,22 @@
 const siteConfig = {
-    title: "Petro411 - Mineral Data Made Simple",
-    description: "Discover detailed mineral ownership data with Petro411. Subscribe to access verified property and ownership information quickly and easily.",
-    domain: "https://petro411.com",
+    title: "Digg411 - Mineral Data Made Simple",
+    description: "Discover detailed mineral ownership data with Digg411. Subscribe to access verified property and ownership information quickly and easily.",
+    domain: "https://digg411.com",
 
     keywords: [
         "Mineral Data",
         "Mineral Owners",
         "Land Ownership",
         "Property Search",
-        "Petro411",
+        "Digg411",
         "Subscription Mineral Platform",
     ],
 
-    author: "Petro411 Team",
+    author: "Digg411 Team",
     logo: "/assets/logo.svg", // adjust as needed
     socialLinks: {
-        twitter: "https://twitter.com/petro411",
-        linkedin: "https://linkedin.com/company/petro411",
+        twitter: "https://twitter.com/digg411",
+        linkedin: "https://linkedin.com/company/digg411",
     },
     UserTypes: {
         user: "user",
@@ -63,30 +63,6 @@ const siteConfig = {
             summary:
                 "Ideal for professionals managing multiple counties. Includes downloads, full mineral lists with contacts, and more users.",
         },
-        // {
-        //     name: "Management",
-        //     price: "$199.99",
-        //     billingCycle: "Monthly Subscription",
-        //     features: {
-        //         noOfCounties: 25,
-        //         noOfUsers: 10,
-        //         noOfDownloads: 500,
-        //     },
-        //     summary:
-        //         "Perfect for teams. Manage wide regions with generous downloads and team access. Includes enhanced filtering and data tools.",
-        // },
-        // {
-        //     name: "Executive",
-        //     price: "$299.99",
-        //     billingCycle: "Monthly Subscription",
-        //     features: {
-        //         noOfCounties: 50,
-        //         noOfUsers: 20,
-        //         noOfDownloads: "Unlimited",
-        //     },
-        //     summary:
-        //         "Complete platform access for large organizations. Unlimited downloads, priority support, and the full suite of mineral ownership data tools.",
-        // },
     ]
 };
 

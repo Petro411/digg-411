@@ -16,14 +16,14 @@ const StatesAndCounties = ({ locations }: Props) => {
   return (
     <>
       <SeoHead
-        title="Browse Mineral Owner Records by State & County | Petro411"
-        description="Explore mineral ownership data across the U.S. by state and county. Find accurate, up-to-date mineral owner contact information for land acquisition and oil & gas research on Petro411."
-        url="https://www.petro411.com/states-and-counties"
+        title="Browse Property Owner Records by State & County | Digg411"
+        description="Explore property ownership data across the U.S. by state and county. Find accurate, up-to-date property owner contact information for land acquisition and oil & gas research on Digg411."
+        url="https://www.digg411.com/states-and-counties"
       />
       <SiteHeader />
       <PageHeader
         title="States & Counties"
-        description="Select a state to explore its counties and access detailed mineral owner records, including ownership data and verified contact information for individuals and companies across the U.S."
+        description="Select a state to explore its counties and access detailed property owner records, including ownership data and verified contact information for individuals and companies across the U.S."
       />
       <Container>
         <div className="grid grid-cols-4 gap-5 py-10">

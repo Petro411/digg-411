@@ -16,6 +16,8 @@ export interface IMineralOwner extends Document {
     description: string;
     state: State;
     city: string;
+    ownerState: State;
+    countiesNormalized:string[]
 }
 
 const StateSchema: Schema<State> = new Schema({
@@ -32,7 +34,9 @@ const MineralOwnerSchema = new Schema<IMineralOwner>({
     zipcode: { type: String, },
     description: { type: String, },
     city: { type: String, },
-    state: { type: StateSchema }
+    state: { type: StateSchema },
+    ownerState: { type: StateSchema },
+    countiesNormalized:[{type:String}]
 }, {
     timestamps: true
 });

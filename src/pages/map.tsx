@@ -26,15 +26,15 @@ function Map() {
   return (
     <div>
       <SeoHead
-        title="Mineral Owners Map | Search by State & County | Petro411"
-        description="Explore Petro411's interactive map to find mineral owners near you. Select a state, choose a county, and view detailed mineral ownership listings instantly."
-        url="https://www.petro411.com/map"
+        title="Property Owners Map | Search by State & County | Digg411"
+        description="Explore Digg411's interactive map to find property owners near you. Select a state, choose a county, and view detailed property ownership listings instantly."
+        url="https://www.digg411.com/map"
       />
       <SiteHeader />
       <div className={`gradientBg text-white`}>
         <Container className="min-h-[40vh] items-center justify-center flex flex-col text-center gap-4">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Mineral Owners Map
+            Property Owners Map
             {/* {label.YourMineralOwners} */}
           </h1>
           <Text as={"p"} size={"3"} className="w-full md:w-[80%] lg:w-[60%]">
