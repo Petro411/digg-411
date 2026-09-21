@@ -63,13 +63,11 @@ const Owners = ({
       <div className={`gradientBg text-white`}>
         <Container className="min-h-[60vh] items-center justify-center flex flex-col text-center gap-4">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Search Mineral Search
-            {/* {label.YourMineralOwners} */}
+            Search Mineral Owners
           </h1>
           <Text as={"p"} size={"3"} className="w-full md:w-[80%] lg:w-[60%]">
             Search by first name, last name, state, or county to locate
             ownership records across the U.S.
-            {/* {label.SimplifiesLandAcquisition} */}
           </Text>
         </Container>
       </div>
